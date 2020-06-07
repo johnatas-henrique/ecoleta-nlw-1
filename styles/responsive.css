@@ -1,0 +1,32 @@
+@media (max-width: 900px) {
+  #page-home {
+    background: none;
+  }
+
+  .content {
+    align-items: center;
+    text-align: center;
+  }
+
+  .login {
+    bottom: 16px;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+  }
+  main {
+    align-items: center;
+  }
+}
+
+@media (min-width: 1400px) {
+  #page-home {
+    background-position-x: 40vw;
+  }
+}
+
+@media (max-width: 760px) {
+  #page-home {
+    background-position-y: 200px;
+  }
+}
